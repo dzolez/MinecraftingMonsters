@@ -1,11 +1,37 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CelestialStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftingmonsters/models/block/celestial_stone.json",
+          "src/main/resources/data/craftingmonsters/neoforge/biome_modifier/celestial_stone_biome_modifier.json",
+          "src/main/resources/data/craftingmonsters/loot_table/blocks/celestial_stone.json",
+          "src/main/resources/assets/craftingmonsters/models/item/celestial_stone.json",
+          "src/main/resources/data/craftingmonsters/worldgen/configured_feature/celestial_stone.json",
+          "src/main/resources/data/craftingmonsters/worldgen/placed_feature/celestial_stone.json",
+          "src/main/java/net/mcreator/craftingmonsters/block/CelestialStoneBlock.java",
+          "src/main/resources/assets/craftingmonsters/blockstates/celestial_stone.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CelestialStone"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.craftingmonsters.celestial_stone": "Celestial Stone"
+    }
   },
   "foldersRoot": {
     "name": "~",

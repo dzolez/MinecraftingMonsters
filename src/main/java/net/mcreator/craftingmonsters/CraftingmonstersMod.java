@@ -18,6 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.craftingmonsters.init.CraftingmonstersModTabs;
+import net.mcreator.craftingmonsters.init.CraftingmonstersModItems;
+import net.mcreator.craftingmonsters.init.CraftingmonstersModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +39,12 @@ public class CraftingmonstersMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		CraftingmonstersModBlocks.REGISTRY.register(modEventBus);
+
+		CraftingmonstersModItems.REGISTRY.register(modEventBus);
+
+		CraftingmonstersModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
