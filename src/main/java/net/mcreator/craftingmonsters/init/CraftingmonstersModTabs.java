@@ -24,6 +24,7 @@ public class CraftingmonstersModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 
 			tabData.accept(CraftingmonstersModBlocks.CELESTIAL_STONE.get().asItem());
+			tabData.accept(CraftingmonstersModBlocks.CELESTIAL_DEPOSIT.get().asItem());
 
 		}
 	}

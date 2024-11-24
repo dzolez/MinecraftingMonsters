@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "craftingmonsters:celestial_deposit",
     "craftingmonsters:celestial_stone"
   ]
 }

@@ -17,6 +17,7 @@ import net.mcreator.craftingmonsters.CraftingmonstersMod;
 public class CraftingmonstersModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CraftingmonstersMod.MODID);
 	public static final DeferredItem<Item> CELESTIAL_STONE = block(CraftingmonstersModBlocks.CELESTIAL_STONE);
+	public static final DeferredItem<Item> CELESTIAL_DEPOSIT = block(CraftingmonstersModBlocks.CELESTIAL_DEPOSIT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -10,11 +10,13 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.craftingmonsters.block.CelestialStoneBlock;
+import net.mcreator.craftingmonsters.block.CelestialDepositBlock;
 import net.mcreator.craftingmonsters.CraftingmonstersMod;
 
 public class CraftingmonstersModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(CraftingmonstersMod.MODID);
 	public static final DeferredBlock<Block> CELESTIAL_STONE = REGISTRY.register("celestial_stone", CelestialStoneBlock::new);
+	public static final DeferredBlock<Block> CELESTIAL_DEPOSIT = REGISTRY.register("celestial_deposit", CelestialDepositBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

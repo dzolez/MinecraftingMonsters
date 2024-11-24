@@ -18,19 +18,43 @@
           "src/main/resources/assets/craftingmonsters/blockstates/celestial_stone.json"
         ]
       }
+    },
+    {
+      "name": "CelestialDeposit",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_deposit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/craftingmonsters/block/CelestialDepositBlock.java",
+          "src/main/resources/data/craftingmonsters/worldgen/placed_feature/celestial_deposit.json",
+          "src/main/resources/data/craftingmonsters/worldgen/configured_feature/celestial_deposit.json",
+          "src/main/resources/data/craftingmonsters/loot_table/blocks/celestial_deposit.json",
+          "src/main/resources/assets/craftingmonsters/models/block/celestial_deposit.json",
+          "src/main/resources/data/craftingmonsters/neoforge/biome_modifier/celestial_deposit_biome_modifier.json",
+          "src/main/resources/assets/craftingmonsters/blockstates/celestial_deposit.json",
+          "src/main/resources/assets/craftingmonsters/models/item/celestial_deposit.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CelestialDeposit",
       "~CUSTOM:CelestialStone"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CelestialDeposit"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.craftingmonsters.celestial_stone": "Celestial Stone"
+      "block.craftingmonsters.celestial_stone": "Celestial Stone",
+      "block.craftingmonsters.celestial_deposit": "Celestial Deposit"
     }
   },
   "foldersRoot": {

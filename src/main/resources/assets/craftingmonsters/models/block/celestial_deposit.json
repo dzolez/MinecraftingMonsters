@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "craftingmonsters:block/celestial_stone_top",
+    "up": "craftingmonsters:block/celestial_stone_top",
+    "north": "craftingmonsters:block/celestial_deposit_side",
+    "east": "craftingmonsters:block/celestial_deposit_side",
+    "south": "craftingmonsters:block/celestial_deposit_side",
+    "west": "craftingmonsters:block/celestial_deposit_side",
+    "particle": "craftingmonsters:block/celestial_stone_top"
+  },
+  "render_type": "solid"
+}
